@@ -19,16 +19,3 @@ for w in word_list:
 
 print(*pali_list, sep="\n")
 print(f"Number of palindromes found: {len(pali_list)}")
-
-'''    
-for word in word_list:
-    if word == "" or len(word) == 1:
-        pali_list.append(word)
-        continue
-
-    while word[0] == word[-1]:
-        new_word = word[1:-1]
-        if word == "" or len(new_word) == 1:
-            pali_list.append(new_word)
-            break
-'''
